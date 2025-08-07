@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-08-06 10:58:50">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<application_name>Managed Vulnerabilities</application_name>
+<application_scope>x_mcse_managed_vul</application_scope>
+<application_version>2.4.9</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>AC1: For Managed Vuln and Pen Test access model and ACLs, ensure the assigned SDL team 'Security lead delegates' has the same access permissions as assigned SDL team 'Security lead'    </description>
+<inserted/>
+<name>MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>979ab984c3832210daea9533e401316d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>333a880cc3d7ee10daea9533e40131c5</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<application_name>Managed Vulnerabilities</application_name>
+<application_scope>x_mcse_managed_vul</application_scope>
+<application_version>2.4.9</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>AC1: For Managed Vuln and Pen Test access model and ACLs, ensure the assigned SDL team 'Security lead delegates' has the same access permissions as assigned SDL team 'Security lead'    </description>
+<inserted/>
+<name>MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>979ab984c3832210daea9533e401316d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>333a880cc3d7ee10daea9533e40131c5</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>AC1: For Managed Vuln and Pen Test access model and ACLs, ensure the assigned SDL team 'Security lead delegates' has the same access permissions as assigned SDL team 'Security lead'    </description>
+<inserted/>
+<name>MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr</name>
+<origin_sys_id/>
+<parent display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</parent>
+<release_date/>
+<remote_base_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>f3519a44878322100a1133373cbb3525</remote_sys_id>
+<state>in_hierarchy</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>733a880cc3d7ee10daea9533e40131c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6fb3aecd932f0e18239bf5029dba10d8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow write for compensating_controls_user in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_mcse_managed_vul_vulnerable_items.compensating_controls_user&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var user = gs.getUserID();
+if ((gs.getUser().hasRole('x_mcse_managed_vul.remediation_team') || gs.getUser().hasRole('x_mcse_managed_vul.assessors') || (current.u_sdl_team.u_security_lead == user) || (current.u_sdl_team.u_sdl_poc == user) || (current.u_sdl_team.u_security_lead_delegates.toString().indexOf(user) &gt; -1) || (current.u_sdl_team.u_biso == user) ||
+	(current.u_sdl_team.u_team_member_s.toString().indexOf(user) &gt; -1) || (current.u_sdl_team.u_team_assignee.toString().indexOf(user) &gt; -1))) {
+	answer = true;
+}]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ndevig200&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-20 18:40:40&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;6fb3aecd932f0e18239bf5029dba10d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_mcse_managed_vul_vulnerable_items.compensating_controls_user&lt;/sys_name&gt;&lt;sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Managed Vulnerabilities"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_6fb3aecd932f0e18239bf5029dba10d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-28 17:06:13&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6fb3aecd932f0e18239bf5029dba10d8&lt;/id&gt;&lt;sys_created_by&gt;msambu848&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-25 10:53:18&lt;/sys_created_on&gt;&lt;sys_id&gt;4ae5924087c322100a1133373cbb353d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 10:53:18&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-331742233</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>333a880cc3d7ee10daea9533e40131c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19851ffc7920000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>86084f013d832210d6d736fc81f31506</update_guid>
+<update_guid_history>86084f013d832210d6d736fc81f31506:-331742233,9fe64f8933432210273eab5030cb39ed:-227143096,dae51a0023c32210c2cf704fea2d115e:75693944,eab47ea4dbbf4e9ca9fb670bf15dfd06:424853181,bace0a4a4fa782980f35de68f9f325a0:346988341,f7dfe83d3e2b4a58f1122dbcd1bf147a:424853181,adf894ed3a2fc2583066b5527efb7d3d:229400048,70a4ae4990634e188492454ed8cef4a2:24743726</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8cdb81ce1ba8e810b4e6a718624bcbc4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_label/&gt;&lt;action_name/&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_run_at&gt;server&lt;/action_run_at&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;application/&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_mcse_managed_vul_vulnerable_items&lt;/collection&gt;&lt;condition/&gt;&lt;description&gt;Users with SecVul role and associated to the SecVul records will only be able to see those records&lt;/description&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Control access of SecVul Records&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;read_access_action&gt;false&lt;/read_access_action&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    /*
+    @_Desc : Users with SecVul role and associated to the SecVul records will only be able to see those records
+    */
+
+    var getgrp = new ManagedVulUtils();
+    var u = gs.getUserID();
+
+    if (!gs.getUser().isMemberOf("Pen Test admins") &amp;&amp;
+        !gs.getUser().isMemberOf("SAS-SECVULN-Reporting") &amp;&amp;
+        !gs.getUser().isMemberOf("DHome_SECVULN_Blacklist") &amp;&amp;
+        !gs.getUser().isMemberOf("Managed Vuln Read only") &amp;&amp;
+        !gs.getUser().isMemberOf("PSIRT_ManagedVuln_ReadOnly") &amp;&amp;
+        !gs.getUser().isMemberOf("PSIRT_Admin") &amp;&amp;
+        !gs.getUser().isMemberOf("FTE_Assessors") &amp;&amp;
+        !gs.hasRole('admin') &amp;&amp;
+        (gs.hasRole("x_mcse_managed_vul.assessors") || gs.hasRole("x_mcse_managed_vul.extended_remediation_team") || gs.hasRole("x_mcse_managed_vul.interested_users") || gs.hasRole("x_mcse_managed_vul.issue_task_owner") || gs.hasRole("x_mcse_managed_vul.remediation_team"))) {
+
+        var qc = '';
+
+        if (gs.hasRole("x_mcse_managed_vul.assessors") ||
+            gs.hasRole("x_mcse_managed_vul.extended_remediation_team") ||
+            gs.hasRole("x_mcse_managed_vul.interested_users") ||
+            gs.hasRole("x_mcse_managed_vul.issue_task_owner") ||
+            gs.hasRole("x_mcse_managed_vul.remediation_team")) {
+            qc = current.addQuery("reporter", "=", u).addOrCondition("secvuln_allowed_users", "CONTAINS", u).addOrCondition("ownership_path_allowed_users", "CONTAINS", u).addOrCondition("spoc", "CONTAINS", u);
+
+
+        } else {
+            qc = current.addQuery("status", "!=", "Draft").addCondition("reporter", "=", u).addOrCondition("secvuln_allowed_users", "CONTAINS", u).addOrCondition("ownership_path_allowed_users", "CONTAINS", u).addOrCondition("spoc", "CONTAINS", u);
+
+        }
+
+        // addQuery("reporter", u)
+
+        var groups = gs.getUser().getMyGroups().toString().split(',');
+        for (var i = 0; i &lt; groups.length; i++) {
+            qc.addOrCondition("default_access", "CONTAINS", groups[i]).addOrCondition("secvuln_permission", "CONTAINS", groups[i]);
+        }
+
+        if (gs.getUser().isMemberOf("SSC_Assessors")) {
+            grps = getgrp.groupMembersList('69fde398db054c50a417a2364b9619e8');
+            qc.addOrCondition("reporter", "IN", grps);
+        }
+        if (gs.getUser().isMemberOf("EY_Assessors")) {
+            grps = getgrp.groupMembersList('47671ecc1b09a898b4e6a718624bcbe7');
+            qc.addOrCondition("reporter", "IN", grps);
+        }
+        if (gs.getUser().isMemberOf("EY_Triage")) {
+            grps = getgrp.groupMembersList('ce97d6801b49a898b4e6a718624bcb1e');
+            qc.addOrCondition("reporter", "IN", grps);
+        }
+        if (gs.getUser().isMemberOf("SRA_Assessors")) {
+            grps = getgrp.groupMembersList('8db29fdb1b14f3c4efea85507e4bcbf3');
+            qc.addOrCondition("reporter", "IN", grps);
+        }
+        if (gs.getUser().isMemberOf("VM_Remediation")) {
+            grps = getgrp.groupMembersList('a8c592c81bc5a898b4e6a718624bcb82');
+            qc.addOrCondition("reporter", "IN", grps);
+        }
+        qc.addOrCondition('u_sdl_team.u_biso', u);
+        qc.addOrCondition('u_sdl_team.u_team_assignee', 'CONTAINS', u);
+        qc.addOrCondition('u_sdl_team.u_team_member_s', 'CONTAINS', u);
+        qc.addOrCondition('u_sdl_team.u_sdl_poc', u);
+        qc.addOrCondition('u_sdl_team.u_security_lead', u);
+        qc.addOrCondition('u_sdl_team.u_security_lead_delegates', 'CONTAINS', u);
+
+    } else if (gs.getUser().isMemberOf("CXT - Threat Model")) {
+        current.addEncodedQuery('status!=Draft^ownership_pathLIKE672c12716f9635009be7cf30be3ee41b^ORu_sdl_team.u_pathLIKEGlobal Technology Organization (GTO, formerly CXT)^ORu_sdl_team.u_biso=' + u + '^ORu_sdl_team.u_team_assigneeLIKE' + u + '^ORu_sdl_team.u_team_member_sLIKE' + u + '^ORu_sdl_team.u_sdl_poc=' + u + '^ORu_sdl_team.u_security_lead=' + u + '^ORu_sdl_team.u_security_lead_delegatesLIKE' + u); // Ownership Path contains Rick Rioboli
+    } else if (!gs.getUser().isMemberOf("Pen Test admins") &amp;&amp;
+        !gs.getUser().isMemberOf("SAS-SECVULN-Reporting") &amp;&amp;
+        !gs.getUser().isMemberOf("DHome_SECVULN_Blacklist") &amp;&amp;
+        !gs.getUser().isMemberOf("Managed Vuln Read only") &amp;&amp;
+        !gs.getUser().isMemberOf("PSIRT_ManagedVuln_ReadOnly") &amp;&amp;
+        !gs.getUser().isMemberOf("PSIRT_Admin") &amp;&amp;
+        !gs.getUser().isMemberOf("FTE_Assessors") &amp;&amp;
+        !gs.hasRole('admin') &amp;&amp; gs.hasRole('snc_internal')) {
+        current.addEncodedQuery('status!=Draft^u_sdl_team.u_biso=' + u + '^ORu_sdl_team.u_team_assigneeLIKE' + u + '^ORu_sdl_team.u_team_member_sLIKE' + u + '^ORu_sdl_team.u_sdl_poc=' + u + '^ORu_sdl_team.u_security_lead=' + u + '^ORu_sdl_team.u_security_lead_delegatesLIKE' + u);
+    } else if (gs.getUser().isMemberOf("PSIRT_ManagedVuln_ReadOnly")) {
+        current.addEncodedQuery('source=PSIRT'); // source is PSIRT
+    } else if (!gs.hasRole("x_mcse_managed_vul.remediation_team") &amp;&amp; !gs.hasRole('x_mcse_managed_vul.assessors') &amp;&amp; !gs.hasRole('admin')) {
+        current.addEncodedQuery('status!=Draft^u_sdl_team.u_biso=' + u + '^ORu_sdl_team.u_team_assigneeLIKE' + u + '^ORu_sdl_team.u_team_member_sLIKE' + u + '^ORu_sdl_team.u_sdl_poc=' + u + '^ORu_sdl_team.u_security_lead=' + u + '^ORu_sdl_team.u_security_lead_delegatesLIKE' + u);
+    }
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;akumar113&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-11-19 10:51:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;8cdb81ce1ba8e810b4e6a718624bcbc4&lt;/sys_id&gt;&lt;sys_mod_count&gt;168&lt;/sys_mod_count&gt;&lt;sys_name&gt;Control access of SecVul Records&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Managed Vulnerabilities"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8cdb81ce1ba8e810b4e6a718624bcbc4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-01 14:22:03&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8cdb81ce1ba8e810b4e6a718624bcbc4&lt;/id&gt;&lt;sys_created_by&gt;msambu848&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-25 10:57:48&lt;/sys_created_on&gt;&lt;sys_id&gt;00f69ec087c322100a1133373cbb3586&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 10:57:48&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>515410719</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>373a880cc3d7ee10daea9533e40131c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1986602e7980000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items</table>
+<target_name>Control access of SecVul Records</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>00d80b9a5187e610fac24975dfe5f781</update_guid>
+<update_guid_history>00d80b9a5187e610fac24975dfe5f781:515410719,0245f542e80f6a10947a8290b27318c9:-941612087,3824acfd40cf661041fd39bbe73a1c84:148011420,470460bd71cf6610ea081564b7d904fb:-478593759,f5eb016d9b47a2106cbfb5ae57c5a049:148011420,37a94925cf83a210090bec7a4d67e076:-153110642,a7774d692e47a210515106f06541f659:-345663778,d217cda57e47a210bd1638ca8d4e5e6c:-879764937,500501658347a21031c31fbdf126f474:-1298086528,767385e1fc47a210f03ef334ae386009:-479566903,1ff281e13c47a210175495cda644ae07:-445522756,fec2cda1ee47a2101a71d9e1d7937712:-1590710865,59718dedf607a210c68a8e622499bb2b:1835638148,291e3c29ba07a2106f82cc1cad2e30e1:-355920739,000c5ca1f14f621001a415366eb9243d:-479566903,9cab54a1e94f621026bb98df168eb570:-879764937,f2af4ca56a0f62109ad33f6240232277:1101794869,7bd8d71d4c0b6210bc4f1f2b620cb3ef:35520411,dfb613151bc762100e7aacb0b7d43e4d:-918900366,a5c517d1cbc76210510690bfcdc13fe9:-294848041,0944d351c9c762104ffca0f24b443ad9:2096534686,c1e68f5da0c7a2106797ea5d64af4207:937158524,2cf139d1e80b22103fd76d118b6782f4:-879764937,381f9785eb832210c639a11cc6bcc8ee:-639925628,b1f9df01c7032210813551a62293380d:297356357,daaa8b0d2f432210d9dbbb0b9883f147:815076377,0cd94bc9624322109e7b2466ccd886b0:-1661314391,d539cb89b843221021745b75c4e4c727:-869893127,4fc70f0dab432210cbf9f033a1b4cd5b:297356357,9e05754dc20722108410d4d893d38435:33642310,e67ccd85870322101414068a8ac251ee:1518590187,9d4b9e1c148322103310bd0f595c6be7:33642310,d50a5a98cf8322100020d38e2f65cb77:-678175349,48599298e88322105878960e95065238:33642310,34d39e909883221035bd38f865597a7d:-984087152,5d4246186f0722102583b264e2961ef9:1852800460,a7d3e0d0034322105f1aa383cc4bdbea:33642310,b20914d46c83221001b16a6df8937654:-355920739,83b894d4618322107b6b09ba7b677d1e:1456901464,a82e0090d04322106460206120ccb9ab:2038264267,3bfac0506b032210730dc3b3772e646d:1186614822,7c154c94488322106f7f2a5e6b6ae21b:2038264267,9694cc5419832210cc81ebdf97eb9280:1186614822,54f6120428c322109d01c8cfc69f9ca4:2038264267,556031eea0d71a5085a52e4ef57d8efd:-479566903,bf20b9ae33d71a50cc2cd7d2182bff10:1524907369,b9efe92ef9d71a5011b48130af2c636f:859147913,198e656a8cd71a508a629d72596a9d23:-479566903,2486a4b2f3039a503fd60cb3b5e0d599:1582246521,791696f7efe512504c433e0d1c3c6e91:-558766129,21731e7b23a51250f73f2f65566ddacc:-1303944637,d49820bf32a51e10b5eb582ed94ad9a6:-558766129,bff724bf4ea51e1088a9f822545d3e6a:1966974215,7083dc4eab6d96d47302259bc21e8627:58883417,e09bf7f5636196d470f9940278718965:-1303944637,4e4c11d141615a90794cd8b7d3f8239c:111838846,d6044681d759dad0150d3eff77d0c131:111838846,99c3ce018e59dad049e5f7c83fc242e2:1687011587,bb1ad586e5ab0298dae0e7ee0c65d37d:111838846,41c3fc2b589b86547daba7e51d50ce6e:-1303944637,723001e29ff34a10607f64de1449a99d:-1273756382,bb1ad586e5ab0298dae0e7ee0c65d37d:111838846,e493ecb99b274a58abc7e8ce4adcaecd:58883417,b283cae16c6f82184eb2a5de47d429e4:-1303944637,99e28a612a6f821874432a6474bf8197:-1895760441,2ca85358f56782d4bfe9b7e9f87c90ba:-1303944637,2c09d5dc216b42d43dff922233b6bb17:-246122019,bbbc45d8a4e742d45880362aa7db5fbc:-1303944637,cae94114aba742d41b9bedc85a54a278:2015580335,fbb84f407263069414d53249201a3ef0:-1303944637,72980f046f23069499733647e9c15d2d:-1247870182,0cd7cf40f12306949b3edd66ea8dff42:-1303944637,bf8743c82fefc294dfbec219989402c2:989071992,ba7747c87defc294241e926073626792:1591078852,c89603040cefc29479af9a10d61e2d86:-1303944637,37760bc0e0efc2948cf24b514ebf25bc:-1465013154,984ec63af7078ed0e9a33b967d4b9ea2:-897083208,41c3fc2b589b86547daba7e51d50ce6e:-1303944637,a483fc67699b8654eadd2cd136f3dab5:1718544281,984ec63af7078ed0e9a33b967d4b9ea2:-897083208,5dbc063a9d078ed07ff05cc297f73cb1:-1990302955,7585cabe24838ed0371a924cf05569b9:-1663756779,ecd406be98838ed031d3d6349b03d741:-503867108,c8840e3e45838ed055c3b17e4f1a9dad:114400824,b051b576f1470a90e0ed324a430e65a9:1962699000,982b93746ccb0210bb8e4c57c44692d9:-503867108,62e1907cc68702502970e55899db20e3:-693398583,a4250cb8bf030250dac3bbd6c71fdf5b:1570563621,8ca480f4e60302506fdce9731d5777cb:-2129295063,f0444c303a0302507959c1adaf098c68:1115130120,f132b2e8a3074e10696ff7f5cdb1e063:1570563621,6c1236a8c5074e10420d8e4b960ec0cd:1407364650,7ba07ea87fc34e106f40ed262ee891f7:1570563621,59afe6a879834e104233bb08b27b4c9f:93018942,7c47bc61414eca1027bf0e5acc32edef:-2126639053,84b570ad91caca105dce22c59cf98abf:1713240772,70a052ed6ef04e501152655b53b679e4:340369703,7a850dc78bff7d587eb2f00d0b855268:1718544281,9d902e10c9396510bd410770c36f8dd5:947116073,b99e8e3c74e719102e8a352acac1eb96:-943442615,781906f476e719102498f5e23a7b974f:37059751,b0764274a2e719103b5c406c3de4c9c0:1365600316,c440caf861a7191039207355c17232bd:1673992089,8ed37dbcbb6719101541757d82ca2fba:-508026230,8442bcb939db11946a643748eb6f7bb5:759719795,c0a0747ddddb1194bf445361da52cb80:2104560339,9750f8f953db1194fd6d865bde708ffd:-1385689448,af20f4b5a2db11949430640d9a805ec3:2104560339,e96b28fd555b1194b1865692691fff40:-584468202,ae78e4bd731b11947aaaf9c2b88b9a4c:1739137790,f7b060f126971194998aafa0e75dca10:1121902059,9580bb29cbd3dd54c23622353e07d1dc:-1133580853,3900281cd1d69d54e9486fd5864796c4:-700639276,c4ef541c18d69d541edc47900edda720:-1455615699,dd1d54544ad69d5416bc886dceec86c0:-66859465,05e698dca1969d5430dab9eeb65d23dd:-2027162516,9596d4dcdd969d54c11d1987f30462c2:1180933333,e6661c9cd1969d54b906a98177beac51:-2125578243,12f59c1c40969d54d6d22f00a55b02ea:-933154975,ff2804dcda569d54f92781030f9ace56:-184788445,d7860c63041d0d90566ed8763efef6f0:-1677003339,31d5cee8c0115d50f5dfd6271e73cd74:-380469243,2fc8873e1fa8d1509cc45ebd1f4c1052:-823711579,a4b8033e3aa8d150518ca4920e9a7fef:-380469243,68309936f6a0d1500f83c45434e01704:1006415626,b4bf0d7252a0d1501350cf18680f2736:-1070387196,90af09f27da0d150d68dbe5e091db5c8:282082842,9229c53e3860d150e61d61cdf918124f:-1882598429,8429853ea560d15057f4fd52e094f2c7:-914016413,39c3311f35d41150e3b6e57208786b82:-380469243,c21f11d7875011509af3153b0d1c786c:206145952,0f2453dcda3b4510c58548abf1ee6fd9:-380469243,eb11183b66efcd545c03427ac388ed3a:-823711579,4b3408ffc7e7cd544287717f0f46b2ae:1914067626,ea1380bfc3e7cd54d23ef91de692b4b0:549611561,0b08e6dfeaa381144d87bbe69101fcbd:-850660076,5be4140b652f0d9084e18c3ae78b5fb2:-1977642160,0f44d443cc2f0d905451f4c7306cc3fb:-354487290,5573dc03c72f0d90be86537da0632238:-1122309487,56672282ea2b05909034bdad033c2b0d:368319166,3fe662420e2b05908ef5f9b16ebc273d:-1671755153,35b66242c92b05909cb813edb60a7152:1283698797,87f522023c2b05901b5dc9988f09b97e:-503899560,2a152a4e87e70590dc089906279ab7b0:-1034407467,6c54eeca4ce70590ce20c2d64dc50985:-1428277663,1cf326ca49e7059005445b53eab5c301:-1594950389,48926a8adde705908cb21a891e7dcf01:-1879203574,19ee9646cbe70590331ed02ec5a66af9:-1580053483,d556658efeafc190a538f116a785e34c:1012625071,e633298a70afc190e51d94dd36037b97:-1726685228,b1622d0acaafc190e887553a91d8c81f:2095303912,5e12694a97afc190c4c8b69717f86429:-534870022,652169c6abafc190081770ff86959ec0:1630333882,2300a54685afc1905d2b77c8cf563731:-1609181902,e06cc17910e34190a235c697d2436cee:-1481424703,f61ac57136e34190c6951c2e23748993:-76532046,a07e1c753d2bcd50b94d8ff304d220ed:431666604,ffed5435112bcd50d6cedd9de3e2d065:-97239924,0f0c587d7667cd501b5d95cb1c492f49:-1308032651,3df9147dbd67cd5002c25f0896117f0f:1354540572,49d910315e67cd50035bc73681e71be2:1179069910,d7860c63041d0d90566ed8763efef6f0:-1677003339,a0ca67d7d1590d90c52ede06be13a621:-1135941422,9c7aef97c6590d907e17ef98eb721867:-1621260836,59396757d3590d90e09f1847140e9db1:-1622426317,92d8e317cb590d909b86cfd679d2ac8a:884227642,25488fd3d31505d08371e29366fd79ba:-2057220293,0f5a07536b954910a50fb6222dab8e4d:-2057220293,8c98831b82b04910c8f5dd48d5bd9b5c:884227642,a03707d3ceb049101636b6c0d2647f67:-1351605989,50f6cb17dbb049109616dfd5813bf2e8:1634049635,a962f5422e27b450d4d537be6f5b0ac7:-2057220293,7152ed830944859099408705d6fd3c1e:-223522864,a962f5422e27b450d4d537be6f5b0ac7:-2057220293,f57d658a1bef7450e3addd172bb9d6a1:-1769795366,1b69ed2dc3173410de9d0d5ea866c1db:-223522864,0ed8e16d9d1734104a7587dbc9d3f71c:-1293973909,e157e5a9c7173410afb5f9940313f77e:1247684654,915621a98117341027fd9d132bc44bb2:-220684108,7536a1a9d3173410bf79bb43c2ef947f:1431983795,d416ad6926173410ffc230bd5a77834a:1879973971,cec56de5741734109bd394fb596f6099:1173205489,69b5ade5801734106e5c261dc1acd60a:293425423,71b4e5e56f173410b95b4e701ec10c3c:116834255,fdb4e5e52b173410940b5edc4030c537:-2086789334,c04af1b4b74845508bcbf1917b0163a2:-2086789334</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_33d4a24d93234e18239bf5029dba1068</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow write for compensating_controls_description_user in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var user = gs.getUserID();
+if ((gs.getUser().hasRole('x_mcse_managed_vul.remediation_team') || gs.getUser().hasRole('x_mcse_managed_vul.assessors') || (current.u_sdl_team.u_security_lead == user) || (current.u_sdl_team.u_sdl_poc == user) || current.u_sdl_team.u_security_lead_delegates.toString().indexOf(user) &gt; -1 || (current.u_sdl_team.u_biso == user) ||
+	(current.u_sdl_team.u_team_member_s.toString().indexOf(user) &gt; -1) || (current.u_sdl_team.u_team_assignee.toString().indexOf(user) &gt; -1))) {
+	answer = true;
+}]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ndevig200&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-20 18:41:42&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;33d4a24d93234e18239bf5029dba1068&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user&lt;/sys_name&gt;&lt;sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Managed Vulnerabilities"&gt;6d34e13ddb94a810aad9e525ca9619c6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_33d4a24d93234e18239bf5029dba1068&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-28 17:05:58&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;33d4a24d93234e18239bf5029dba1068&lt;/id&gt;&lt;sys_created_by&gt;msambu848&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-25 10:52:53&lt;/sys_created_on&gt;&lt;sys_id&gt;c8d51a0087c322100a1133373cbb3573&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 10:52:53&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1827536561</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>733a880cc3d7ee10daea9533e40131c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19851ff8a3d0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>92f707cdcc4322104ba62742d57f235c</update_guid>
+<update_guid_history>92f707cdcc4322104ba62742d57f235c:1827536561,b6c6c7897f432210adc20e3268286d8a:-1197655760,5cd51240b0c322104a960726ed4eab4c:1326280889,57a4baa4c9bf4e9c9dd484ccf187cd44:-236551590,72aec6c6c7a782981c205e160e66fdb0:-1359251170,a310fc7d802b4a5897f61a875129bcb1:-236551590,7d1b6835f3e74a58b7d825c82d9c835d:1692668659,229edc29b96fc258e1ab7bb70eddd499:414384755,0b3e14297b6fc2585b02d47f69787074:-312419062,20889cedef2fc258aaecbcff1140fe30:414384755,ee35e681d3a34e18cb5e38093ad900f7:-899203413,7bd4664de8634e18e112ffbe5eca400c:-873479513</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9227e5cd872b49501a0a0e16cebb3522</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items.*">u_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status!=Draft^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow read for all fields in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status!=Draft^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>karumu142</sys_created_by><sys_created_on>2022-05-17 05:29:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9227e5cd872b49501a0a0e16cebb3522</sys_id><sys_mod_count>10</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items.*</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_9227e5cd872b49501a0a0e16cebb3522</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-29 05:49:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-582513077</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>773a880cc3d7ee10daea9533e40131c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19854ba886a0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.*</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.*</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>4ab671d9e80b221035c79547d4b40e41</update_guid>
+<update_guid_history>4ab671d9e80b221035c79547d4b40e41:-582513077,69f170e5938aca10b5658e4a195d9171:655875074,2ac38bf515975594f377340d29bd6d93:223923730,b97133ed6ed3dd54e14950c6903d6c40:-1866917713,ab3cce684ed15d503b4bbb628c4d43f2:-978227896,0dbc6c104819d150c278f70fa69354a8:-950496287,2ce2a89ced91d150bdb92b95054a8bb6:-978227896,bd7cdd08737f8110b12e945c7d4d593c:-950496287,a3e8ae13d4e3811468462d4bd3e2d5a3:-1016670155,eea7e94666efc19060123b717728a9ed:1298977060,db38507d7e27cd50c9c3c2f06662701c:-2012636646,b6aee9c9796b49500ec6d395a4d76be9:-1090657075,cb972d018e6b4950f3abcad933014ed8:1572783591</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_063ba54787230ed843ac11773cbb35af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user">u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow write for compensating_controls_description_user in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rpanig037</sys_created_by><sys_created_on>2024-07-26 19:37:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>063ba54787230ed843ac11773cbb35af</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_063ba54787230ed843ac11773cbb35af</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:37:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>583190396</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>7f3a880cc3d7ee10daea9533e40131c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840f224090000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_description_user</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f394c2c499032210e37ffc3af7a59f80</update_guid>
+<update_guid_history>f394c2c499032210e37ffc3af7a59f80:583190396,8e3b698b8f230ed8bfa3cb19fa655611:1954295069</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_fd1a6d4687b335101a0a0e16cebb358c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items.remediation_plan">u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Access to write for RBAC users</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items.remediation_plan</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>ks198</sys_created_by><sys_created_on>2024-01-19 07:23:12</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fd1a6d4687b335101a0a0e16cebb358c</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items.remediation_plan</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_fd1a6d4687b335101a0a0e16cebb358c</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:38:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1508558754</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>b73a880cc3d7ee10daea9533e40131c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840f2c1090000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.remediation_plan</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.remediation_plan</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3dc40ac447032210393c4e299bcda1e2</update_guid>
+<update_guid_history>3dc40ac447032210393c4e299bcda1e2:-1508558754,a20386400a4c8654a7c2db0e50337f10:321828363,be598c88bc8c0654f991ac5556129a3d:-686277480,eef88088f58c0654291412b9c54c0d88:1694478008,8f8e73f3933f3554817aac32893b1a62:132391022,894d3373cc3f355431e094a8fadf1211:-743446784,850df733623f3554130ff5c8ed3097da:1373852312,78aea50270f33510f486b82d32d876dd:-455253133</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_f8caa94387230ed843ac11773cbb35d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items.compensating_controls_user">u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow write for compensating_controls_user in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rpanig037</sys_created_by><sys_created_on>2024-07-26 19:35:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f8caa94387230ed843ac11773cbb35d0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_f8caa94387230ed843ac11773cbb35d0</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:38:10</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1730909718</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>bb3a880cc3d7ee10daea9533e40131c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840f27c820000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.compensating_controls_user</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a9b446c4ca032210d53ef44a9517109d</update_guid>
+<update_guid_history>a9b446c4ca032210d53ef44a9517109d:1730909718,f91be9c320230ed8fb993a1b209d69fc:-456352742,fccaa943bd230ed877adaa6bcf809ed9:346988341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_bd837dfb87cb39101a0a0e16cebb3528</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items">u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_sdl_team.u_sdl_poc" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_member_s" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_biso" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead_delegates" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow write for records in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rravis127</sys_created_by><sys_created_on>2023-12-18 11:28:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bd837dfb87cb39101a0a0e16cebb3528</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_bd837dfb87cb39101a0a0e16cebb3528</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:03:36</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1024252358</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>bf3a880cc3d7ee10daea9533e40131c5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840d2d6d70000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items</table>
+<target_name>x_mcse_managed_vul_vulnerable_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7accbd88738322105edcd4d3382af394</update_guid>
+<update_guid_history>7accbd88738322105edcd4d3382af394:-1024252358,de07fdf3b40f3910b928979cc2aa8ae2:-722258742,5ce37d3fdecb39108adc4b87ae433c74:-515333338</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3878960e87a705901a0a0e16cebb3595</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items">u_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status!=Draft^EQ<item endquery="false" field="u_sdl_team.u_biso" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_sdl_poc" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_member_s" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead_delegates" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="Draft"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow read for records in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status!=Draft^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>karumu142</sys_created_by><sys_created_on>2022-05-20 11:37:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3878960e87a705901a0a0e16cebb3595</sys_id><sys_mod_count>11</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_3878960e87a705901a0a0e16cebb3595</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:00:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1972630611</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>f33a880cc3d7ee10daea9533e40131c7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840cfd61c0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items</table>
+<target_name>x_mcse_managed_vul_vulnerable_items</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f60c3548598322105345808b849c1cf2</update_guid>
+<update_guid_history>f60c3548598322105345808b849c1cf2:1972630611,707f2ce1e34aca10bb366fbdf5ac7d0a:1348569105,9dd96a32828fbd50af51982f62337b80:-915987345,01d38bf5899755949b236b9995f99487:1592281523,c1617b6da1d3dd540d973f50249184ec:373951163,272c8a28d9d15d50a9093c8a4a43399e:-1829697940,1faca050c119d1502541cfd707745e40:-722785805,1bd2a49c6a91d1501562554745d4a68d:-1829697940,da869904b0bb8110a0a182e5233448c8:-722785805,2076510464bb8110b4c81bf7ed837acb:1936284012,06f8669398e38114e6e553f2576a87e2:-794885142,6ba8225320e3811417baf0e311424a06:1557688321,54e9d68eaba7059071f735fb55ff1424:-2012636646,c2a85a0e97a705909468daf6a240e0bf:-432859324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c9b724fb874ff5101a0a0e16cebb35d7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="x_mcse_managed_vul_vulnerable_items.comments">u_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow write for comments in x_mcse_managed_vul_vulnerable_items, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_mcse_managed_vul_vulnerable_items.comments</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rravis127</sys_created_by><sys_created_on>2023-12-18 05:56:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c9b724fb874ff5101a0a0e16cebb35d7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_mcse_managed_vul_vulnerable_items.comments</sys_name><sys_package display_value="Managed Vulnerabilities" source="x_mcse_managed_vul">6d34e13ddb94a810aad9e525ca9619c6</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Managed Vulnerabilities">6d34e13ddb94a810aad9e525ca9619c6</sys_scope><sys_update_name>sys_security_acl_c9b724fb874ff5101a0a0e16cebb35d7</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 09:37:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>351820636</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">333a880cc3d7ee10daea9533e40131c5</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>f73a880cc3d7ee10daea9533e40131c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19840f1baaa0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>x_mcse_managed_vul_vulnerable_items.comments</table>
+<target_name>x_mcse_managed_vul_vulnerable_items.comments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>99848e84c3032210ff72df670da76ab5</update_guid>
+<update_guid_history>99848e84c3032210ff72df670da76ab5:351820636,a959a87f844ff5102255269f37f437ec:-1082898593,4408e8fbd14ff510e07ffd1b159a633d:-1158234974</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a5a7566c97139590f357b9e3a253af88</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="u_software_assessments">u_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_sdl_team.u_biso" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_sdl_poc" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_member_s" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead_delegates" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Default access control on u_software_assessments</description><local_or_existing>Local</local_or_existing><name>u_software_assessments</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rpanig037</sys_created_by><sys_created_on>2022-11-18 05:37:49</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a5a7566c97139590f357b9e3a253af88</sys_id><sys_mod_count>6</sys_mod_count><sys_name>u_software_assessments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_a5a7566c97139590f357b9e3a253af88</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 10:36:10</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1854117020</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">733a880cc3d7ee10daea9533e40131c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>3b3a880cc3d7ee10daea9533e40131c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198412797fe0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>u_software_assessments</table>
+<target_name>u_software_assessments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cff11a480a8322106b15d57b04ba9f8b</update_guid>
+<update_guid_history>cff11a480a8322106b15d57b04ba9f8b:1854117020,15a1cab3684f391073a58a4a717747f5:-838309772,8bce03fd6a93d1d03bd109b4f6d75a97:-1268646791,dfbe8fbde093d1d0c226a576d641a9a5:-546119051,3bf75e6c09139590643b676c1f7e0934:-1923669830,b6b7da6c73139590d33f1ac814cbe26f:975120842,21a7566ca61395908f10fab089ac4f8d:510692487</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_54c7ba6f93151a94239bf5029dba10b9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;false&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow write for comments in u_software_assessments, for users with role snc_internal, and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;u_software_assessments.comments&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var userId = gs.getUserID();
+
+answer = (current.request_contact == userId || current.assigned_to == userId || current.watch_list.indexOf(userId) &gt; -1 || current.u_sdl_team.u_team_member_s.includes(userId) || current.u_sdl_team.u_biso == userId || current.u_sdl_team.u_sdl_poc == userId || current.u_sdl_team.u_team_assignee.includes(userId) || current.u_sdl_team.u_security_lead == userId || current.u_sdl_team.u_security_lead_delegates == userId || gs.hasRole('x_mcse_chi.chi_admin,u_assessments_approvals_user,x_mcse_managed_vul.assessors,x_mcse_managed_vul.remediation_team,x_mcse_managed_vul.readonly,x_mcse_managed_vul.issue_task_owner,x_mcse_managed_vul.Managed_Vulnerabilities.Admin'));]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;msambu848&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-23 14:26:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;54c7ba6f93151a94239bf5029dba10b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_software_assessments.comments&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_54c7ba6f93151a94239bf5029dba10b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 10:50:09&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;54c7ba6f93151a94239bf5029dba10b9&lt;/id&gt;&lt;sys_created_by&gt;msambu848&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-25 10:50:09&lt;/sys_created_on&gt;&lt;sys_id&gt;b725d28c878322100a1133373cbb35a2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;msambu848&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-25 10:50:09&lt;/sys_updated_on&gt;&lt;table&gt;sys_security_acl&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1123820446</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">733a880cc3d7ee10daea9533e40131c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>773a880cc3d7ee10daea9533e40131c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>198413466cf0000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>u_software_assessments.comments</table>
+<target_name>u_software_assessments.comments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>44351ecc5b832210f656e8de1d9436a5</update_guid>
+<update_guid_history>44351ecc5b832210f656e8de1d9436a5:-1123820446,e6b6de73331dda9491ab7a8258b90cab:702875745,59a69e73341dda94beb73348fc14b6b2:1750399752,aa461e33001dda9487898ce2ec1608ee:702875745,4bf55aff60d9da9466140e1c8125e167:1867666896,15e596ff25d9da9410c9b090805b3b29:1832844528,c6c456fb08d9da945aadc6abfa9381d1:1867666896,4a6c86370699da94f2227aea7674be29:-1769033715,825c0637e599da949d518a4545c2d4e1:1389620148,716b4e336999da94faee03adc4ed55d9:-1769033715,a287c6339959da949f5c8a30421aa9cd:-1073712001,1147c6ff4319da94ee4c8f2acbaf19a4:-1769033715,66434e7fffd5da94e33301b0b8bed727:152644001,33f2863fdad5da94d4bbb2844874cf3b:-153833275,66f97263a1551a94f06ec86bf53c3514:152644001,6989722788551a94bfa5f26d48b122e0:-1849356571</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3c9f8a7e8707bd50ae12a68d0ebb35ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition table="u_software_assessments">u_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_sdl_team.u_team_member_s" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_biso" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_sdl_poc" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_team_assignee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="u_sdl_team.u_security_lead_delegates" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_type>allow</decision_type><description>Allow write for records in u_software_assessments, for users with role snc_internal, and if the ACL condition (u_sdl_team.u_team_member_sDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_bisoDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_sdl_pocDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_team_assigneeDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_leadDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_sdl_team.u_security_lead_delegatesDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>u_software_assessments</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rravis127</sys_created_by><sys_created_on>2023-12-15 10:57:42</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3c9f8a7e8707bd50ae12a68d0ebb35ca</sys_id><sys_mod_count>9</sys_mod_count><sys_name>u_software_assessments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_3c9f8a7e8707bd50ae12a68d0ebb35ca</sys_update_name><sys_updated_by>msambu848</sys_updated_by><sys_updated_on>2025-07-25 10:35:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>347204728</payload_hash>
+<remote_update_set display_value="MPSA_SNR0025014_Security lead delegate needs access to submit compensating contr">733a880cc3d7ee10daea9533e40131c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>msambu848</sys_created_by>
+<sys_created_on>2025-08-06 10:58:49</sys_created_on>
+<sys_id>fb3a880cc3d7ee10daea9533e40131c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1984126fd250000001</sys_recorded_at>
+<sys_updated_by>msambu848</sys_updated_by>
+<sys_updated_on>2025-08-06 10:58:49</sys_updated_on>
+<table>u_software_assessments</table>
+<target_name>u_software_assessments</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2dd11248be832210c7de105610a77b97</update_guid>
+<update_guid_history>2dd11248be832210c7de105610a77b97:347204728,571cf1843753f910e08909fd62c27cd7:1299966874,e7457988a413f9104de72b407dec7691:2121077971,b6c30ab79d4f391013fd686fd47c3313:1299966874,d9930e776b4f3910980fa2643cda9464:2121077971,721bf57bb70f391063efbc3e52c017a0:1299966874,ce729e36e547bd50bf94f8e99cce5852:2121077971,3e9112f26347bd50349570ec541a175c:1299966874,4f519e72cb47bd50e615bd8562378a10:1304091703,39109ebec007bd50494046a7a4517662:-887866728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
